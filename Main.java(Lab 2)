@@ -35,7 +35,7 @@ public class Main {
      y=in.nextDouble();
      System.out.println("Введите координату Z");
      z=in.nextDouble();
-     Point3d threepoint = new Point3d(x, y, z);//создание второй точки
+     Point3d threepoint = new Point3d(x, y, z);//создание третьей точки
 
  /** Проверка точек на равенство **/
  if ((Point3d.Check3D(onepoint,twopoint) == false)
